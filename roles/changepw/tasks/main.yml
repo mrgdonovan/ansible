@@ -1,0 +1,4 @@
+---
+
+- name: change user password
+  user: name=gregdonovan update_password=always password=$6$nnPtmz/5$svaEiuPXyTt0Y/JU/hfdKjL/MPts3J11TzdRWn4jqjMGHqbwOQAsNkPrvLdscVvRaXcaX4d66A8OjWIYkIB0r.

@@ -1,0 +1,22 @@
+---
+# vars file for addWebUids
+users:
+  svsiva:
+    password: $6$DPeGtDsd$kd9nF0vPQizy7qMftVe.GyvDj.a8pcdwBLzTSoI7IuWqrwG4eMhDIV.kQXEUj6ATiRi6utS9mQcEDWYhJETXh/
+    shell: /bin/bash
+    comment: Subhas Sivaman INC089568
+    uid: 3113
+    group: svsiva
+    groups:
+    createhome: yes
+    state: present
+
+  gddonova:
+     password: temp99
+     shell: /bin/bash
+     comment: Greg Donovan INC0111111
+     uid: 520
+     group: gddonova
+     createhome: yes
+     state: present
+

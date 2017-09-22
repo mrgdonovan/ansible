@@ -1,0 +1,32 @@
+---
+# vars file for addISSAusers
+users:
+  lpjking:
+    password: temp99
+    shell: /bin/bash
+    comment: Jason King ISSA INC0738478
+    uid: 10302
+    group: lpjking
+    groups: secadmin
+    createhome: yes
+    state: present
+
+  dplarse1:
+    password: temp99
+    shell: /bin/bash
+    comment: Dustin Larsen ISSA INC0738478
+    uid: 30388
+    group: dplarse1
+    groups: secadmin
+    createhome: yes
+    state: present
+
+  twbrads1:
+    password: temp99
+    shell: /bin/bash
+    comment: Taylor Bradshaw ISSA INC0738478
+    uid: 31226
+    group: twbrads1
+    groups: secadmin
+    createhome: yes
+    state: present

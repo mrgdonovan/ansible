@@ -1,0 +1,22 @@
+---
+
+- name: add user(s) to multiple linux hosts
+  hosts: all
+  become: True
+  become_user: root
+  gather_facts: False
+  serial: 1
+  tasks:
+
+  - user:
+     name: "{{ item }}"
+     shell: /bin/bash
+     home: /home/{{ item }}
+     groups: wheel,lp
+     createhome: yes
+     append: yes
+     uid: 2040
+     state: absent
+    with_items:
+      - bob
+      - tux

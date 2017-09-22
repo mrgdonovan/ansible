@@ -1,0 +1,8 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: install htop utility
+      yum: name={{item}} state=latest
+      with_items:
+        - htop

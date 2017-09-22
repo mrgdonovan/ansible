@@ -1,0 +1,15 @@
+---
+users:
+  - username: gregdonovan
+    name: "Greg Donovan INC111111"
+    groups: ['wheel']
+    uid: 500
+    ssh_key:
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC9GCr5pETeH4y/JGhUjK6rnLS+dt79fMSiRXymIkFSPux3kn9EQXX2P2i2rhgZWCkJOmCWhcQgb8DeAfIWvCyecn7lH85PaTSGiLNlFPLfCLDwihH2VSEooo21Mi5FUpyIkIm2WESa/c51L5CiiQ0xwHKhCZSwvnsC5ZrTG5nXFUn/v21rRzT23IkzQ69bLFSpRuwdLU1HivsXFi9dWfZkP50zrou0ceXHEfFPns24TmJleKu1VpozuiagYPucfu6Ysxw16T3hO5heKKCfhW+2jm/ousup8dV6T44pGZbzNaIO2w4HcC1hf/Lwm1tqQ5oBoGRCYry1+rTWJXMm5dWH gregdonovan"
+  
+  - username: santaclause
+    name: "Greg Donovan INC222222"
+    groups: ['wheel']
+    uid: 510
+    ssh_key:
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC9GCr5pETeH4y/JGhUjK6rnLS+dt79fMSiRXymIkFSPux3kn9EQXX2P2i2rhgZWCkJOmCWhcQgb8DeAfIWvCyecn7lH85PaTSGiLNlFPLfCLDwihH2VSEooo21Mi5FUpyIkIm2WESa/c51L5CiiQ0xwHKhCZSwvnsC5ZrTG5nXFUn/v21rRzT23IkzQ69bLFSpRuwdLU1HivsXFi9dWfZkP50zrou0ceXHEfFPns24TmJleKu1VpozuiagYPucfu6Ysxw16T3hO5heKKCfhW+2jm/ousup8dV6T44pGZbzNaIO2w4HcC1hf/Lwm1tqQ5oBoGRCYry1+rTWJXMm5dWH gregdonovan"
