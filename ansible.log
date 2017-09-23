@@ -122,3 +122,421 @@ It is sometimes useful to re-run the command using -vvvv, which prints SSH debug
 2017-04-20 18:40:50,610 p=3561 u=gregdonovan |  pi2                        : ok=0    changed=0    unreachable=1    failed=0   
 2017-04-20 18:40:50,610 p=3561 u=gregdonovan |  webx                       : ok=2    changed=1    unreachable=0    failed=0   
 2017-04-20 18:40:50,610 p=3561 u=gregdonovan |  webz                       : ok=2    changed=1    unreachable=0    failed=0   
+2017-09-22 19:14:57,846 p=1227 u=gregdonovan |   
+2017-09-22 19:14:57,847 p=1227 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook shutdownhm.yml -i inventory
+2017-09-22 19:14:57,848 p=1227 u=gregdonovan |   
+2017-09-22 19:14:57,865 p=1227 u=gregdonovan |  ERROR: Syntax Error while loading YAML script, /Users/gregdonovan/ansible/roles/shutdownhm/tasks/main.yml
+Note: The error may actually appear before this position: line 10, column 14
+
+      name:shutdown all servers
+      command: "uname"
+             ^
+2017-09-22 19:16:55,571 p=1234 u=gregdonovan |   
+2017-09-22 19:16:55,572 p=1234 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook shutdownhm.yml -i inventory
+2017-09-22 19:16:55,572 p=1234 u=gregdonovan |   
+2017-09-22 19:16:55,582 p=1234 u=gregdonovan |  ERROR: Syntax Error while loading YAML script, /Users/gregdonovan/ansible/roles/shutdownhm/tasks/main.yml
+Note: The error may actually appear before this position: line 10, column 14
+
+      name:shutdown all servers
+      command: "shutdown -h now"
+             ^
+2017-09-22 19:19:50,711 p=1238 u=gregdonovan |   
+2017-09-22 19:19:50,711 p=1238 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook shutdownhm.yml -i inventory
+2017-09-22 19:19:50,711 p=1238 u=gregdonovan |   
+2017-09-22 19:19:50,722 p=1238 u=gregdonovan |  ERROR: Syntax Error while loading YAML script, /Users/gregdonovan/ansible/roles/shutdownhm/tasks/main.yml
+Note: The error may actually appear before this position: line 10, column 14
+
+      name:shutdown all servers
+      command: "shutdown -h now"
+             ^
+2017-09-22 19:27:53,432 p=1272 u=gregdonovan |   
+2017-09-22 19:27:53,432 p=1272 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook shutdownhm.yml -i inventory
+2017-09-22 19:27:53,432 p=1272 u=gregdonovan |   
+2017-09-22 19:27:53,441 p=1272 u=gregdonovan |  ERROR: Syntax Error while loading YAML script, /Users/gregdonovan/ansible/roles/shutdownhm/tasks/main.yml
+Note: The error may actually appear before this position: line 10, column 14
+
+    - name:shutdown all servers
+      command: "shutdown -h now"
+             ^
+2017-09-22 19:29:56,018 p=1287 u=gregdonovan |   
+2017-09-22 19:29:56,018 p=1287 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook shutdownhm.yml -i inventory
+2017-09-22 19:29:56,018 p=1287 u=gregdonovan |   
+2017-09-22 19:29:56,029 p=1287 u=gregdonovan |  ERROR: Syntax Error while loading YAML script, /Users/gregdonovan/ansible/roles/shutdownhm/tasks/main.yml
+Note: The error may actually appear before this position: line 9, column 11
+
+    
+    - name: shutdown all servers
+          ^
+2017-09-22 19:31:07,888 p=1290 u=gregdonovan |   
+2017-09-22 19:31:07,888 p=1290 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook shutdownhm.yml -i inventory
+2017-09-22 19:31:07,888 p=1290 u=gregdonovan |   
+2017-09-22 19:31:07,897 p=1290 u=gregdonovan |  ERROR: Syntax Error while loading YAML script, /Users/gregdonovan/ansible/roles/shutdownhm/tasks/main.yml
+Note: The error may actually appear before this position: line 11, column 1
+
+      command:"uname"
+
+^
+2017-09-22 19:33:03,292 p=1295 u=gregdonovan |   
+2017-09-22 19:33:03,292 p=1295 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook shutdownhm.yml -i inventory
+2017-09-22 19:33:03,292 p=1295 u=gregdonovan |   
+2017-09-22 19:33:03,301 p=1295 u=gregdonovan |  ERROR: Syntax Error while loading YAML script, /Users/gregdonovan/ansible/roles/shutdownhm/tasks/main.yml
+Note: The error may actually appear before this position: line 10, column 1
+
+      command:"uname"
+
+^
+2017-09-22 19:33:15,850 p=1296 u=gregdonovan |   
+2017-09-22 19:33:15,850 p=1296 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 19:33:15,850 p=1296 u=gregdonovan |   
+2017-09-22 19:33:15,861 p=1296 u=gregdonovan |  ERROR: Syntax Error while loading YAML script, /Users/gregdonovan/ansible/roles/shutdownhm/tasks/main.yml
+Note: The error may actually appear before this position: line 10, column 1
+
+      command:"uname"
+
+^
+2017-09-22 19:36:16,558 p=1307 u=gregdonovan |   
+2017-09-22 19:36:16,558 p=1307 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 19:36:16,558 p=1307 u=gregdonovan |   
+2017-09-22 19:36:16,601 p=1307 u=gregdonovan |  ERROR: tasks is not a legal parameter in an Ansible task or handler
+2017-09-22 19:37:30,197 p=1310 u=gregdonovan |   
+2017-09-22 19:37:30,197 p=1310 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 19:37:30,197 p=1310 u=gregdonovan |   
+2017-09-22 19:37:30,220 p=1310 u=gregdonovan |  ERROR: tasks is not a legal parameter in an Ansible task or handler
+2017-09-22 19:38:08,941 p=1311 u=gregdonovan |   
+2017-09-22 19:38:08,941 p=1311 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C addISSAusers.yml -i inventory
+2017-09-22 19:38:08,942 p=1311 u=gregdonovan |   
+2017-09-22 19:38:08,952 p=1311 u=gregdonovan |  ERROR: cannot find role in /Users/gregdonovan/ansible/roles/addISSAusers--- or /Users/gregdonovan/ansible/addISSAusers--- or /usr/local/etc/ansible/roles/addISSAusers---
+2017-09-22 19:39:42,862 p=1317 u=gregdonovan |   
+2017-09-22 19:39:42,862 p=1317 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C apache-playbook.yml -i inventory
+2017-09-22 19:39:42,862 p=1317 u=gregdonovan |   
+2017-09-22 19:39:42,871 p=1317 u=gregdonovan |  ERROR: Syntax Error while loading YAML script, apache-playbook.yml
+Note: The error may actually appear before this position: line 28, column 1
+
+
+# Geerling, Jeff Ansible for DevOps: Server and configuration management for humans
+^
+2017-09-22 19:40:02,935 p=1319 u=gregdonovan |   
+2017-09-22 19:40:02,935 p=1319 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 19:40:02,935 p=1319 u=gregdonovan |   
+2017-09-22 19:40:02,958 p=1319 u=gregdonovan |  ERROR: tasks is not a legal parameter in an Ansible task or handler
+2017-09-22 19:41:13,663 p=1321 u=gregdonovan |   
+2017-09-22 19:41:13,663 p=1321 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 19:41:13,663 p=1321 u=gregdonovan |   
+2017-09-22 19:41:13,684 p=1321 u=gregdonovan |  ERROR: hosts is not a legal parameter in an Ansible task or handler
+2017-09-22 19:41:56,011 p=1323 u=gregdonovan |   
+2017-09-22 19:41:56,011 p=1323 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 19:41:56,011 p=1323 u=gregdonovan |   
+2017-09-22 19:41:56,035 p=1323 u=gregdonovan |  ERROR: 'action' or 'local_action' attribute missing in task "Shutdown all home test servers
+- name:shutdown all servers command:"uname""
+2017-09-22 19:48:26,982 p=1348 u=gregdonovan |   
+2017-09-22 19:48:26,982 p=1348 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 19:48:26,982 p=1348 u=gregdonovan |   
+2017-09-22 19:48:26,990 p=1348 u=gregdonovan |  ERROR: cannot find role in /Users/gregdonovan/ansible/roles/shutdownhm--- or /Users/gregdonovan/ansible/shutdownhm--- or /usr/local/etc/ansible/roles/shutdownhm---
+2017-09-22 19:49:55,478 p=1356 u=gregdonovan |   
+2017-09-22 19:49:55,478 p=1356 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 19:49:55,478 p=1356 u=gregdonovan |   
+2017-09-22 19:49:55,489 p=1356 u=gregdonovan |  ERROR: Syntax Error while loading YAML script, /Users/gregdonovan/ansible/roles/shutdownhm/tasks/main.yml
+Note: The error may actually appear before this position: line 4, column 13
+
+     - name:shutdown all servers
+       shell: "shutdown -h now"
+            ^
+2017-09-22 19:50:50,657 p=1359 u=gregdonovan |   
+2017-09-22 19:50:50,657 p=1359 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 19:50:50,657 p=1359 u=gregdonovan |   
+2017-09-22 19:50:50,667 p=1359 u=gregdonovan |  ERROR: expecting dict; got: name:shutdown all servers shell:"shutdown -h now", error in /Users/gregdonovan/ansible/roles/shutdownhm/tasks/main.yml
+2017-09-22 19:52:05,417 p=1361 u=gregdonovan |   
+2017-09-22 19:52:05,418 p=1361 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 19:52:05,418 p=1361 u=gregdonovan |   
+2017-09-22 19:52:05,428 p=1361 u=gregdonovan |  ERROR: expecting dict; got: name:shutdown all servers shell:"shutdown -h now", error in /Users/gregdonovan/ansible/roles/shutdownhm/tasks/main.yml
+2017-09-22 19:55:12,755 p=1372 u=gregdonovan |   
+2017-09-22 19:55:12,760 p=1372 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 19:55:12,761 p=1372 u=gregdonovan |   
+2017-09-22 19:55:12,768 p=1372 u=gregdonovan |  ERROR: cannot find role in /Users/gregdonovan/ansible/roles/shutdownhm--- or /Users/gregdonovan/ansible/shutdownhm--- or /usr/local/etc/ansible/roles/shutdownhm---
+2017-09-22 19:55:36,743 p=1374 u=gregdonovan |   
+2017-09-22 19:55:36,744 p=1374 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 19:55:36,744 p=1374 u=gregdonovan |   
+2017-09-22 19:55:36,754 p=1374 u=gregdonovan |  ERROR: expecting dict; got: name:shutdown all servers shell:"shutdown -h now", error in /Users/gregdonovan/ansible/roles/shutdownhm/tasks/main.yml
+2017-09-22 19:58:48,831 p=1385 u=gregdonovan |   
+2017-09-22 19:58:48,831 p=1385 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 19:58:48,832 p=1385 u=gregdonovan |   
+2017-09-22 19:58:48,842 p=1385 u=gregdonovan |  ERROR: Syntax Error while loading YAML script, /Users/gregdonovan/ansible/roles/shutdownhm/tasks/main.yml
+Note: The error may actually appear before this position: line 3, column 13
+
+     - name:shutdown all servers
+       shell: shutdown -h now
+            ^
+2017-09-22 20:00:51,073 p=1389 u=gregdonovan |   
+2017-09-22 20:00:51,073 p=1389 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 20:00:51,073 p=1389 u=gregdonovan |   
+2017-09-22 20:00:51,083 p=1389 u=gregdonovan |  ERROR: expecting dict; got: name:shutdown all servers shell:shutdown -h now, error in /Users/gregdonovan/ansible/roles/shutdownhm/tasks/main.yml
+2017-09-22 20:03:18,690 p=1391 u=gregdonovan |   
+2017-09-22 20:03:18,690 p=1391 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 20:03:18,690 p=1391 u=gregdonovan |   
+2017-09-22 20:03:18,702 p=1391 u=gregdonovan |  ERROR: Syntax Error while loading YAML script, /Users/gregdonovan/ansible/roles/shutdownhm/tasks/main.yml
+Note: The error may actually appear before this position: line 4, column 1
+
+       shell:shutdown -h now
+
+^
+2017-09-22 20:04:32,716 p=1395 u=gregdonovan |   
+2017-09-22 20:04:32,716 p=1395 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 20:04:32,716 p=1395 u=gregdonovan |   
+2017-09-22 20:04:32,725 p=1395 u=gregdonovan |  ERROR: Syntax Error while loading YAML script, /Users/gregdonovan/ansible/roles/shutdownhm/tasks/main.yml
+Note: The error may actually appear before this position: line 4, column 1
+
+    shell:shutdown -h now
+
+^
+2017-09-22 20:11:00,411 p=1403 u=gregdonovan |   
+2017-09-22 20:11:00,411 p=1403 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 20:11:00,411 p=1403 u=gregdonovan |   
+2017-09-22 20:11:00,419 p=1403 u=gregdonovan |  ERROR: Syntax Error while loading YAML script, shutdownhm.yml
+Note: The error may actually appear before this position: line 6, column 2
+
+ hosts:all_hosts
+ tasks:
+ ^
+2017-09-22 20:11:31,744 p=1405 u=gregdonovan |   
+2017-09-22 20:11:31,745 p=1405 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 20:11:31,745 p=1405 u=gregdonovan |   
+2017-09-22 20:11:31,752 p=1405 u=gregdonovan |  ERROR: expecting dict; got: name:shutdown all servers command:"shutdown -h now", error in None
+2017-09-22 20:13:18,147 p=1408 u=gregdonovan |   
+2017-09-22 20:13:18,147 p=1408 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 20:13:18,147 p=1408 u=gregdonovan |   
+2017-09-22 20:13:18,153 p=1408 u=gregdonovan |  ERROR: Syntax Error while loading YAML script, shutdownhm.yml
+Note: The error may actually appear before this position: line 6, column 2
+
+ hosts:all_hosts
+ tasks:
+ ^
+2017-09-22 20:14:09,236 p=1412 u=gregdonovan |   
+2017-09-22 20:14:09,236 p=1412 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 20:14:09,236 p=1412 u=gregdonovan |   
+2017-09-22 20:14:09,243 p=1412 u=gregdonovan |  ERROR: Syntax Error while loading YAML script, shutdownhm.yml
+Note: The error may actually appear before this position: line 6, column 2
+
+ hosts:all_hosts
+ tasks:
+ ^
+2017-09-22 20:19:29,607 p=1419 u=gregdonovan |   
+2017-09-22 20:19:29,608 p=1419 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 20:19:29,608 p=1419 u=gregdonovan |   
+2017-09-22 20:19:29,623 p=1419 u=gregdonovan |  ERROR: expecting dict; got: name:shutdown all servers command:"shutdown -h now", error in None
+2017-09-22 20:19:55,449 p=1421 u=gregdonovan |   
+2017-09-22 20:19:55,449 p=1421 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 20:19:55,449 p=1421 u=gregdonovan |   
+2017-09-22 20:19:55,458 p=1421 u=gregdonovan |  ERROR: Syntax Error while loading YAML script, shutdownhm.yml
+Note: The error may actually appear before this position: line 10, column 1
+
+    command:"shutdown -h now"
+
+^
+2017-09-22 20:20:22,597 p=1424 u=gregdonovan |   
+2017-09-22 20:20:22,597 p=1424 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 20:20:22,597 p=1424 u=gregdonovan |   
+2017-09-22 20:20:22,605 p=1424 u=gregdonovan |  ERROR: Syntax Error while loading YAML script, shutdownhm.yml
+Note: The error may actually appear before this position: line 10, column 1
+
+    shell:"shutdown -h now"
+
+^
+2017-09-22 20:20:42,021 p=1426 u=gregdonovan |   
+2017-09-22 20:20:42,021 p=1426 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 20:20:42,021 p=1426 u=gregdonovan |   
+2017-09-22 20:20:42,086 p=1426 u=gregdonovan |  PLAY [all_hosts] ************************************************************** 
+2017-09-22 20:20:42,087 p=1426 u=gregdonovan |  GATHERING FACTS *************************************************************** 
+2017-09-22 20:20:42,395 p=1426 u=gregdonovan |  fatal: [webz] => SSH Error: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+    while connecting to 192.168.1.145:22
+It is sometimes useful to re-run the command using -vvvv, which prints SSH debug output to help diagnose the issue.
+2017-09-22 20:20:42,416 p=1426 u=gregdonovan |  fatal: [webx] => SSH Error: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+    while connecting to 192.168.1.141:22
+It is sometimes useful to re-run the command using -vvvv, which prints SSH debug output to help diagnose the issue.
+2017-09-22 20:20:42,487 p=1426 u=gregdonovan |  fatal: [beef] => SSH Error: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+    while connecting to 192.168.1.150:22
+It is sometimes useful to re-run the command using -vvvv, which prints SSH debug output to help diagnose the issue.
+2017-09-22 20:20:42,872 p=1426 u=gregdonovan |  fatal: [think] => SSH Error: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+    while connecting to 192.168.1.147:22
+It is sometimes useful to re-run the command using -vvvv, which prints SSH debug output to help diagnose the issue.
+2017-09-22 20:20:43,131 p=1426 u=gregdonovan |  fatal: [pi1] => SSH Error: Permission denied (publickey,password).
+    while connecting to 192.168.1.146:22
+It is sometimes useful to re-run the command using -vvvv, which prints SSH debug output to help diagnose the issue.
+2017-09-22 20:20:47,245 p=1426 u=gregdonovan |  fatal: [pi2] => SSH Error: ssh: connect to host pi2 port 22: Operation timed out
+    while connecting to 192.168.1.161:22
+It is sometimes useful to re-run the command using -vvvv, which prints SSH debug output to help diagnose the issue.
+2017-09-22 20:20:47,260 p=1426 u=gregdonovan |  TASK: [shutdown all servers] ************************************************** 
+2017-09-22 20:20:47,272 p=1426 u=gregdonovan |  FATAL: no hosts matched or all hosts have already failed -- aborting
+
+2017-09-22 20:20:47,273 p=1426 u=gregdonovan |  PLAY RECAP ******************************************************************** 
+2017-09-22 20:20:47,273 p=1426 u=gregdonovan |             to retry, use: --limit @/Users/gregdonovan/shutdownhm.retry
+
+2017-09-22 20:20:47,273 p=1426 u=gregdonovan |  beef                       : ok=0    changed=0    unreachable=1    failed=0   
+2017-09-22 20:20:47,273 p=1426 u=gregdonovan |  pi1                        : ok=0    changed=0    unreachable=1    failed=0   
+2017-09-22 20:20:47,273 p=1426 u=gregdonovan |  pi2                        : ok=0    changed=0    unreachable=1    failed=0   
+2017-09-22 20:20:47,273 p=1426 u=gregdonovan |  think                      : ok=0    changed=0    unreachable=1    failed=0   
+2017-09-22 20:20:47,274 p=1426 u=gregdonovan |  webx                       : ok=0    changed=0    unreachable=1    failed=0   
+2017-09-22 20:20:47,274 p=1426 u=gregdonovan |  webz                       : ok=0    changed=0    unreachable=1    failed=0   
+2017-09-22 20:24:11,422 p=1460 u=gregdonovan |   
+2017-09-22 20:24:11,423 p=1460 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 20:24:11,423 p=1460 u=gregdonovan |   
+2017-09-22 20:24:11,474 p=1460 u=gregdonovan |  PLAY [all_hosts] ************************************************************** 
+2017-09-22 20:24:11,475 p=1460 u=gregdonovan |  GATHERING FACTS *************************************************************** 
+2017-09-22 20:24:11,666 p=1460 u=gregdonovan |  fatal: [webx] => SSH Error: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+    while connecting to 192.168.1.141:22
+It is sometimes useful to re-run the command using -vvvv, which prints SSH debug output to help diagnose the issue.
+2017-09-22 20:24:11,672 p=1460 u=gregdonovan |  fatal: [think] => SSH Error: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+    while connecting to 192.168.1.147:22
+It is sometimes useful to re-run the command using -vvvv, which prints SSH debug output to help diagnose the issue.
+2017-09-22 20:24:11,699 p=1460 u=gregdonovan |  fatal: [webz] => SSH Error: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+    while connecting to 192.168.1.145:22
+It is sometimes useful to re-run the command using -vvvv, which prints SSH debug output to help diagnose the issue.
+2017-09-22 20:24:11,711 p=1460 u=gregdonovan |  fatal: [beef] => SSH Error: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+    while connecting to 192.168.1.150:22
+It is sometimes useful to re-run the command using -vvvv, which prints SSH debug output to help diagnose the issue.
+2017-09-22 20:24:11,843 p=1460 u=gregdonovan |  fatal: [pi1] => SSH Error: Permission denied (publickey,password).
+    while connecting to 192.168.1.146:22
+It is sometimes useful to re-run the command using -vvvv, which prints SSH debug output to help diagnose the issue.
+2017-09-22 20:24:16,577 p=1460 u=gregdonovan |  fatal: [pi2] => SSH Error: ssh: connect to host pi2 port 22: Operation timed out
+    while connecting to 192.168.1.161:22
+It is sometimes useful to re-run the command using -vvvv, which prints SSH debug output to help diagnose the issue.
+2017-09-22 20:24:16,589 p=1460 u=gregdonovan |  TASK: [shutdown all servers] ************************************************** 
+2017-09-22 20:24:16,602 p=1460 u=gregdonovan |  FATAL: no hosts matched or all hosts have already failed -- aborting
+
+2017-09-22 20:24:16,602 p=1460 u=gregdonovan |  PLAY RECAP ******************************************************************** 
+2017-09-22 20:24:16,603 p=1460 u=gregdonovan |             to retry, use: --limit @/Users/gregdonovan/shutdownhm.retry
+
+2017-09-22 20:24:16,603 p=1460 u=gregdonovan |  beef                       : ok=0    changed=0    unreachable=1    failed=0   
+2017-09-22 20:24:16,603 p=1460 u=gregdonovan |  pi1                        : ok=0    changed=0    unreachable=1    failed=0   
+2017-09-22 20:24:16,603 p=1460 u=gregdonovan |  pi2                        : ok=0    changed=0    unreachable=1    failed=0   
+2017-09-22 20:24:16,603 p=1460 u=gregdonovan |  think                      : ok=0    changed=0    unreachable=1    failed=0   
+2017-09-22 20:24:16,603 p=1460 u=gregdonovan |  webx                       : ok=0    changed=0    unreachable=1    failed=0   
+2017-09-22 20:24:16,603 p=1460 u=gregdonovan |  webz                       : ok=0    changed=0    unreachable=1    failed=0   
+2017-09-22 20:26:14,832 p=1481 u=gregdonovan |   
+2017-09-22 20:26:14,832 p=1481 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 20:26:14,832 p=1481 u=gregdonovan |   
+2017-09-22 20:26:14,876 p=1481 u=gregdonovan |  PLAY [all_hosts] ************************************************************** 
+2017-09-22 20:26:14,877 p=1481 u=gregdonovan |  GATHERING FACTS *************************************************************** 
+2017-09-22 20:26:14,972 p=1481 u=gregdonovan |  fatal: [pi2] => SSH Error: ssh: connect to host pi2 port 22: No route to host
+    while connecting to 192.168.1.161:22
+It is sometimes useful to re-run the command using -vvvv, which prints SSH debug output to help diagnose the issue.
+2017-09-22 20:26:17,137 p=1481 u=gregdonovan |  ok: [beef]
+2017-09-22 20:26:17,375 p=1481 u=gregdonovan |  ok: [webz]
+2017-09-22 20:26:17,784 p=1481 u=gregdonovan |  ok: [webx]
+2017-09-22 20:26:19,326 p=1481 u=gregdonovan |  ok: [think]
+2017-09-22 20:26:20,329 p=1481 u=gregdonovan |  ok: [pi1]
+2017-09-22 20:26:20,342 p=1481 u=gregdonovan |  TASK: [shutdown all servers] ************************************************** 
+2017-09-22 20:26:20,390 p=1481 u=gregdonovan |  skipping: [webx]
+2017-09-22 20:26:20,391 p=1481 u=gregdonovan |  skipping: [pi1]
+2017-09-22 20:26:20,392 p=1481 u=gregdonovan |  skipping: [think]
+2017-09-22 20:26:20,392 p=1481 u=gregdonovan |  skipping: [beef]
+2017-09-22 20:26:20,393 p=1481 u=gregdonovan |  skipping: [webz]
+2017-09-22 20:26:20,393 p=1481 u=gregdonovan |  ok: [beef]
+2017-09-22 20:26:20,393 p=1481 u=gregdonovan |  ok: [webz]
+2017-09-22 20:26:20,393 p=1481 u=gregdonovan |  ok: [think]
+2017-09-22 20:26:20,393 p=1481 u=gregdonovan |  ok: [webx]
+2017-09-22 20:26:20,394 p=1481 u=gregdonovan |  ok: [pi1]
+2017-09-22 20:26:20,406 p=1481 u=gregdonovan |  PLAY RECAP ******************************************************************** 
+2017-09-22 20:26:20,407 p=1481 u=gregdonovan |             to retry, use: --limit @/Users/gregdonovan/shutdownhm.retry
+
+2017-09-22 20:26:20,407 p=1481 u=gregdonovan |  beef                       : ok=1    changed=0    unreachable=0    failed=0   
+2017-09-22 20:26:20,408 p=1481 u=gregdonovan |  pi1                        : ok=1    changed=0    unreachable=0    failed=0   
+2017-09-22 20:26:20,408 p=1481 u=gregdonovan |  pi2                        : ok=0    changed=0    unreachable=1    failed=0   
+2017-09-22 20:26:20,408 p=1481 u=gregdonovan |  think                      : ok=1    changed=0    unreachable=0    failed=0   
+2017-09-22 20:26:20,408 p=1481 u=gregdonovan |  webx                       : ok=1    changed=0    unreachable=0    failed=0   
+2017-09-22 20:26:20,408 p=1481 u=gregdonovan |  webz                       : ok=1    changed=0    unreachable=0    failed=0   
+2017-09-22 21:01:20,793 p=1586 u=gregdonovan |   
+2017-09-22 21:01:20,795 p=1586 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 21:01:20,796 p=1586 u=gregdonovan |   
+2017-09-22 21:01:20,864 p=1586 u=gregdonovan |  PLAY [all_hosts] ************************************************************** 
+2017-09-22 21:01:20,864 p=1586 u=gregdonovan |  GATHERING FACTS *************************************************************** 
+2017-09-22 21:01:22,705 p=1586 u=gregdonovan |  ok: [beef]
+2017-09-22 21:01:22,826 p=1586 u=gregdonovan |  ok: [webz]
+2017-09-22 21:01:23,037 p=1586 u=gregdonovan |  ok: [webx]
+2017-09-22 21:01:23,080 p=1586 u=gregdonovan |  ok: [think]
+2017-09-22 21:01:25,993 p=1586 u=gregdonovan |  fatal: [pi1] => SSH Error: ssh: connect to host pi1 port 22: Operation timed out
+    while connecting to 192.168.1.146:22
+It is sometimes useful to re-run the command using -vvvv, which prints SSH debug output to help diagnose the issue.
+2017-09-22 21:01:25,994 p=1586 u=gregdonovan |  fatal: [pi2] => SSH Error: ssh: connect to host pi2 port 22: Operation timed out
+    while connecting to 192.168.1.161:22
+It is sometimes useful to re-run the command using -vvvv, which prints SSH debug output to help diagnose the issue.
+2017-09-22 21:01:26,008 p=1586 u=gregdonovan |  TASK: [shutdown all servers] ************************************************** 
+2017-09-22 21:01:26,054 p=1586 u=gregdonovan |  skipping: [webx]
+2017-09-22 21:01:26,054 p=1586 u=gregdonovan |  skipping: [beef]
+2017-09-22 21:01:26,055 p=1586 u=gregdonovan |  ok: [webx]
+2017-09-22 21:01:26,055 p=1586 u=gregdonovan |  skipping: [think]
+2017-09-22 21:01:26,056 p=1586 u=gregdonovan |  skipping: [webz]
+2017-09-22 21:01:26,056 p=1586 u=gregdonovan |  ok: [think]
+2017-09-22 21:01:26,056 p=1586 u=gregdonovan |  ok: [webz]
+2017-09-22 21:01:26,056 p=1586 u=gregdonovan |  ok: [beef]
+2017-09-22 21:01:26,070 p=1586 u=gregdonovan |  PLAY RECAP ******************************************************************** 
+2017-09-22 21:01:26,074 p=1586 u=gregdonovan |             to retry, use: --limit @/Users/gregdonovan/shutdownhm.retry
+
+2017-09-22 21:01:26,075 p=1586 u=gregdonovan |  beef                       : ok=1    changed=0    unreachable=0    failed=0   
+2017-09-22 21:01:26,075 p=1586 u=gregdonovan |  pi1                        : ok=0    changed=0    unreachable=1    failed=0   
+2017-09-22 21:01:26,075 p=1586 u=gregdonovan |  pi2                        : ok=0    changed=0    unreachable=1    failed=0   
+2017-09-22 21:01:26,075 p=1586 u=gregdonovan |  think                      : ok=1    changed=0    unreachable=0    failed=0   
+2017-09-22 21:01:26,075 p=1586 u=gregdonovan |  webx                       : ok=1    changed=0    unreachable=0    failed=0   
+2017-09-22 21:01:26,075 p=1586 u=gregdonovan |  webz                       : ok=1    changed=0    unreachable=0    failed=0   
+2017-09-22 21:03:57,401 p=1634 u=gregdonovan |   
+2017-09-22 21:03:57,401 p=1634 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook -C shutdownhm.yml -i inventory
+2017-09-22 21:03:57,401 p=1634 u=gregdonovan |   
+2017-09-22 21:03:57,440 p=1634 u=gregdonovan |  PLAY [all_hosts] ************************************************************** 
+2017-09-22 21:03:57,441 p=1634 u=gregdonovan |  GATHERING FACTS *************************************************************** 
+2017-09-22 21:03:59,250 p=1634 u=gregdonovan |  ok: [beef]
+2017-09-22 21:03:59,358 p=1634 u=gregdonovan |  ok: [webz]
+2017-09-22 21:03:59,611 p=1634 u=gregdonovan |  ok: [webx]
+2017-09-22 21:03:59,642 p=1634 u=gregdonovan |  ok: [think]
+2017-09-22 21:04:02,530 p=1634 u=gregdonovan |  fatal: [pi2] => SSH Error: ssh: connect to host pi2 port 22: Operation timed out
+    while connecting to 192.168.1.161:22
+It is sometimes useful to re-run the command using -vvvv, which prints SSH debug output to help diagnose the issue.
+2017-09-22 21:04:02,692 p=1634 u=gregdonovan |  ok: [pi1]
+2017-09-22 21:04:02,707 p=1634 u=gregdonovan |  TASK: [shutdown all servers] ************************************************** 
+2017-09-22 21:04:02,758 p=1634 u=gregdonovan |  skipping: [pi1]
+2017-09-22 21:04:02,758 p=1634 u=gregdonovan |  ok: [pi1]
+2017-09-22 21:04:02,759 p=1634 u=gregdonovan |  skipping: [webx]
+2017-09-22 21:04:02,759 p=1634 u=gregdonovan |  skipping: [webz]
+2017-09-22 21:04:02,760 p=1634 u=gregdonovan |  ok: [webx]
+2017-09-22 21:04:02,760 p=1634 u=gregdonovan |  skipping: [beef]
+2017-09-22 21:04:02,761 p=1634 u=gregdonovan |  skipping: [think]
+2017-09-22 21:04:02,761 p=1634 u=gregdonovan |  ok: [beef]
+2017-09-22 21:04:02,762 p=1634 u=gregdonovan |  ok: [think]
+2017-09-22 21:04:02,762 p=1634 u=gregdonovan |  ok: [webz]
+2017-09-22 21:04:02,775 p=1634 u=gregdonovan |  PLAY RECAP ******************************************************************** 
+2017-09-22 21:04:02,776 p=1634 u=gregdonovan |             to retry, use: --limit @/Users/gregdonovan/shutdownhm.retry
+
+2017-09-22 21:04:02,776 p=1634 u=gregdonovan |  beef                       : ok=1    changed=0    unreachable=0    failed=0   
+2017-09-22 21:04:02,776 p=1634 u=gregdonovan |  pi1                        : ok=1    changed=0    unreachable=0    failed=0   
+2017-09-22 21:04:02,776 p=1634 u=gregdonovan |  pi2                        : ok=0    changed=0    unreachable=1    failed=0   
+2017-09-22 21:04:02,776 p=1634 u=gregdonovan |  think                      : ok=1    changed=0    unreachable=0    failed=0   
+2017-09-22 21:04:02,776 p=1634 u=gregdonovan |  webx                       : ok=1    changed=0    unreachable=0    failed=0   
+2017-09-22 21:04:02,776 p=1634 u=gregdonovan |  webz                       : ok=1    changed=0    unreachable=0    failed=0   
+2017-09-22 23:30:13,389 p=1865 u=gregdonovan |   
+2017-09-22 23:30:13,392 p=1865 u=gregdonovan |  /usr/local/Cellar/ansible/1.9.4/libexec/bin/ansible-playbook shutdownhm.yml -i inventory
+2017-09-22 23:30:13,392 p=1865 u=gregdonovan |   
+2017-09-22 23:30:13,470 p=1865 u=gregdonovan |  PLAY [all_hosts] ************************************************************** 
+2017-09-22 23:30:13,470 p=1865 u=gregdonovan |  GATHERING FACTS *************************************************************** 
+2017-09-22 23:30:15,382 p=1865 u=gregdonovan |  ok: [beef]
+2017-09-22 23:30:15,496 p=1865 u=gregdonovan |  ok: [webz]
+2017-09-22 23:30:15,712 p=1865 u=gregdonovan |  ok: [webx]
+2017-09-22 23:30:15,763 p=1865 u=gregdonovan |  ok: [think]
+2017-09-22 23:30:17,757 p=1865 u=gregdonovan |  ok: [pi2]
+2017-09-22 23:30:18,664 p=1865 u=gregdonovan |  fatal: [pi1] => SSH Error: ssh: connect to host pi1 port 22: Operation timed out
+    while connecting to 192.168.1.146:22
+It is sometimes useful to re-run the command using -vvvv, which prints SSH debug output to help diagnose the issue.
+2017-09-22 23:30:18,677 p=1865 u=gregdonovan |  TASK: [shutdown all servers] ************************************************** 
+2017-09-22 23:30:19,116 p=1865 u=gregdonovan |  changed: [webz]
+2017-09-22 23:30:19,175 p=1865 u=gregdonovan |  changed: [webx]
+2017-09-22 23:30:19,203 p=1865 u=gregdonovan |  fatal: [beef] => SSH Error: Shared connection to beef closed.
+It is sometimes useful to re-run the command using -vvvv, which prints SSH debug output to help diagnose the issue.
+2017-09-22 23:30:19,435 p=1865 u=gregdonovan |  fatal: [pi2] => SSH Error: Shared connection to pi2 closed.
+It is sometimes useful to re-run the command using -vvvv, which prints SSH debug output to help diagnose the issue.
+2017-09-22 23:30:19,590 p=1865 u=gregdonovan |  changed: [think]
+2017-09-22 23:30:19,601 p=1865 u=gregdonovan |  PLAY RECAP ******************************************************************** 
+2017-09-22 23:30:19,605 p=1865 u=gregdonovan |             to retry, use: --limit @/Users/gregdonovan/shutdownhm.retry
+
+2017-09-22 23:30:19,605 p=1865 u=gregdonovan |  beef                       : ok=1    changed=0    unreachable=1    failed=0   
+2017-09-22 23:30:19,605 p=1865 u=gregdonovan |  pi1                        : ok=0    changed=0    unreachable=1    failed=0   
+2017-09-22 23:30:19,606 p=1865 u=gregdonovan |  pi2                        : ok=1    changed=0    unreachable=1    failed=0   
+2017-09-22 23:30:19,606 p=1865 u=gregdonovan |  think                      : ok=2    changed=1    unreachable=0    failed=0   
+2017-09-22 23:30:19,606 p=1865 u=gregdonovan |  webx                       : ok=2    changed=1    unreachable=0    failed=0   
+2017-09-22 23:30:19,606 p=1865 u=gregdonovan |  webz                       : ok=2    changed=1    unreachable=0    failed=0   
