@@ -1,0 +1,53 @@
+---
+users:
+  gfloyd:
+    state: absent
+    move_home: yes
+    home: gfloyd_removed
+
+  maclever:
+    state: absent
+    move_home: yes
+    home: maclever_removed
+
+  bdbythew:
+    state: absent
+    move_home: yes
+    home: bdbythew_removed
+
+  jbaclayo:
+    state: absent
+    move_home: yes
+    home: jbaclayo_removed
+
+  lplricha:
+    state: absent
+    move_home: yes
+    home: lplricha_removed
+
+  adsargen:
+    state: absent
+    move_home: yes
+    home: adsargen_removed
+
+  brrichin:
+    state: absent
+    move_home: yes
+    home: brrichin_removed
+
+  bebosley:
+    state: absent
+    move_home: yes
+    home: bebosley_removed
+
+  bpjones1:
+    state: absent
+    move_home: yes
+    home: bpjones1_removed
+
+  jddelacr:
+    state: absent
+    move_home: yes
+    home: jddelacr_removed
+
+

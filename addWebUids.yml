@@ -1,0 +1,7 @@
+---
+- hosts: temp
+  sudo: True
+  gather_facts: yes
+  roles:
+    - addWebUids
+

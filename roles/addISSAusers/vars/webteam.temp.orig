@@ -1,0 +1,104 @@
+---
+users:
+  gfloyd:
+    password: $1$xy#dnw6w$G0Ku9MQySTotMpz9z7hrv1
+    shell: /bin/bash
+    comment: Gabriel Floyd
+    uid: 1036
+    group: gfloyd
+    groups: webadmin
+    createhome: yes
+    state: present
+
+  maclever:
+    password: $1$xy#dnw6w$G0Ku9MQySTotMpz9z7hrv1
+    shell: /bin/bash
+    comment: Michael Cleverly
+    uid: 1438
+    group: maclever
+    groups: webadmin
+    createhome: yes
+    state: present
+
+  bdbythew:
+    password: $1$xy#dnw6w$G0Ku9MQySTotMpz9z7hrv1
+    shell: /bin/bash
+    comment: Ben Bytheway
+    uid: 1664
+    group: bdbythew
+    groups: webadmin
+    createhome: yes
+    state: present
+
+  jbaclayo:
+    password: $1$xy#dnw6w$G0Ku9MQySTotMpz9z7hrv1
+    shell: /bin/bash
+    comment: Jason Baclayon
+    uid: 1663
+    group: jbaclayo
+    groups: webadmin
+    createhome: yes
+    state: present
+
+  lplricha:
+    password: $1$xy#dnw6w$G0Ku9MQySTotMpz9z7hrv1
+    shell: /bin/bash
+    comment: Lin Richardson
+    uid: 1679
+    group: lplricha
+    groups: webadmin
+    createhome: yes
+    state: present
+
+  adsargen:
+    password: $1$xy#dnw6w$G0Ku9MQySTotMpz9z7hrv1
+    shell: /bin/bash
+    comment: Anthony Sargent
+    uid: 1496
+    group: adsargen
+    groups: webadmin
+    createhome: yes
+    state: present
+
+  brrichin:
+    password: $1$xy#dnw6w$G0Ku9MQySTotMpz9z7hrv1
+    shell: /bin/bash
+    comment: Brandon Richins
+    uid: 30125
+    group: brrichin
+    groups: webadmin
+    createhome: yes
+    state: present
+
+  bebosley:
+    password: $1$xy#dnw6w$G0Ku9MQySTotMpz9z7hrv1
+    shell: /bin/bash
+    comment: Brad Bosley
+    uid: 1495
+    group: bebosley
+    groups: webadmin
+    createhome: yes
+    state: present
+
+  bpjones1:
+    password: $1$xy#dnw6w$G0Ku9MQySTotMpz9z7hrv1
+    shell: /bin/bash
+    comment: Bryan Jones
+    uid: 1498
+    group: bpjones1
+    groups: webadmin
+    createhome: yes
+    state: present
+
+
+  jddelacr:
+    password: $1$xy#dnw6w$G0Ku9MQySTotMpz9z7hrv1
+    shell: /bin/bash
+    comment: JD Dela Cruz
+    uid: 30979
+    group: jddelacr
+    groups: webadmin
+    createhome: yes
+    state: present
+
+

@@ -1,0 +1,12 @@
+---
+users:
+  saviynt:
+    password: temp99
+    shell: /bin/bash
+    comment: saviynt user TASK0147603
+    uid: 31328
+    group: saviynt
+    groups: wheel
+    createhome: yes
+    state: present
+

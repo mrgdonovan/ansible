@@ -1,0 +1,13 @@
+---
+users:
+  bgoodma1:
+    password: temp22 
+    shell: /bin/bash
+    comment: Bruce Goodman TASK0178766
+    uid: 30849
+    group: bgoodma1
+    groups: wheel
+    createhome: yes
+    state: present
+
+

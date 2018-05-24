@@ -1,0 +1,9 @@
+---
+users:
+  kdhanse2:
+    state: absent
+    move_home: yes
+    home: kdhanse2_removed
+
+
+

@@ -1,0 +1,9 @@
+---
+  - name: Update all packages
+    yum: name=* state=latest
+
+  - name: Send email.
+    local_action: mail host=smtp.co.ihc.com subject="Ansible System Update" body="{{ ansible_hostname }} updating all packages. Ansible task complete." from="ramon.gonzalez@imail.org" to="ramon.gonzalez@imail.org" charset=utf8
+
+  - name: Send hipchat message.
+    hipchat: api="https://hipchat.co.ihc.com/v2/room/200/notification" token=V6o6hkFwteMCU7PycKFm9H8mQtZ1eYYfPbP2xJD0 room=notify msg="{{ ansible_hostname }} updating all packages. Ansible task complete."

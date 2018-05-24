@@ -1,0 +1,7 @@
+---
+- hosts: ideaservers
+  sudo: True
+  gather_facts: yes
+  roles:
+    - yumUpdateAll
+

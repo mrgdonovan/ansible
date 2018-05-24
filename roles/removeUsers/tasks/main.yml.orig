@@ -1,0 +1,13 @@
+---
+- name: Remove users from vars file using dict
+  user: name={{ item.key }} state={{ item.value.state }} home={{ item.value.home }} move_home={{ item.value.move_home }}
+  with_dict: users
+
+- name: Send email.
+  local_action: mail host=smtp.co.ihc.com subject="Ansible User Remove" body="{{ ansible_hostname }} user {{ item.key }} removed. Ansible user task complete." from="greg.donovan@imail.org" to="greg.donovan@imail.org" charset=utf8
+  with_dict: users
+
+- name: Send hipchat message.
+  hipchat: api="https://hipchat.co.ihc.com/v2/room/200/notification" token=V6o6hkFwteMCU7PycKFm9H8mQtZ1eYYfPbP2xJD0 room=notify msg="{{ ansible_hostname }} user {{ item.key }} removed."
+  with_dict: users
+

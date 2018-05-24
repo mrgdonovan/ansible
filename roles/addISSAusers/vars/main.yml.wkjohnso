@@ -1,0 +1,12 @@
+---
+users:
+  wkjohnso:
+    password: temp99
+    shell: /bin/bash
+    comment: William Johnson Medicity INC1133372
+    uid: 31329
+    group: wheel
+    groups: wheel,tomcat
+    createhome: yes
+    state: present
+

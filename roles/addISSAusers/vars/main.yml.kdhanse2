@@ -1,0 +1,12 @@
+---
+users:
+  kdhanse2:
+    password: temp99
+    shell: /bin/bash
+    comment: Karl Hansen INC0837574
+    uid: 31009
+    group: kdhanse2
+    groups: wheel
+    createhome: yes
+    state: present
+

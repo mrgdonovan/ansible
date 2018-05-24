@@ -1,0 +1,19 @@
+---
+
+- name: Add user group first before adding user.
+  group: name={{ item.key }} gid={{ item.value.uid }} state=present
+  with_dict: "{{ users }}"
+
+- name: Add users from vars file using dict
+  user: name={{ item.key }} password={{ item.value.password }} shell={{ item.value.shell }} comment="{{ item.value.comment }}" uid={{ item.value.uid }} group={{ item.value.group }} groups={{ item.value.groups }} createhome={{ item.value.createhome }} state={{ item.value.state }}
+  with_dict: "{{ users }}"
+
+- name: Set password expiration
+  shell: "chage -M 98 -W 18 {{ item.key }}"
+  with_dict: "{{ users }}"
+
+- name: Send email.
+  local_action: mail host=smtp.co.ihc.com subject="Ansible User Add" body="{{ ansible_hostname }} user {{ item.key }} added. Ansible task complete." from="greg.donovan@imail.org" to="greg.donovan@imail.org" charset=utf8
+  with_dict: "{{ users }}"
+
+

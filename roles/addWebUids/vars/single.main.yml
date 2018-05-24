@@ -1,0 +1,13 @@
+---
+users:
+  jddelacr:
+    password: $1$xy#dnw6w$G0Ku9MQySTotMpz9z7hrv1
+    shell: /bin/bash
+    comment: JD Dela Cruz
+    uid: 30979
+    group: jddelacr
+    groups: webadmin
+    createhome: yes
+    state: present
+
+

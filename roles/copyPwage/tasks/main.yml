@@ -1,0 +1,10 @@
+---
+  - name: Copy pwage file for user account checking.
+    copy: src=/home/rhgonzal/pwage dest=/home/rhgonzal/pwage owner=rhgonzal group=rhgonzal mode=755
+
+  - name: Send reboot email.
+    local_action: mail host=smtp.co.ihc.com subject="Ansible System Reboot" body="{{ ansible_hostname }} Rebooting." from="ramon.gonzalez@imail.org" to="ramon.gonzalez@imail.org" charset=utf8
+
+  - name: Send reboot hipchat message.
+    hipchat: api="https://hipchat.co.ihc.com/v2/room/200/notification" token=V6o6hkFwteMCU7PycKFm9H8mQtZ1eYYfPbP2xJD0 room=notify color=red msg="{{ ansible_hostname }} Rebooting."
+

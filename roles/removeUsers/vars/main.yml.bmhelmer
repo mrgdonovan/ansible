@@ -1,0 +1,9 @@
+---
+users:
+  bmhelmer:
+    state: absent
+    move_home: yes
+    home: bmhelmer_removed
+
+
+

@@ -1,0 +1,12 @@
+---
+users:
+  ageorge:
+    password: temp99
+    shell: /bin/bash
+    comment: Adam George INC0784073
+    uid: 30939
+    group: ageorge
+    groups: wheel
+    createhome: yes
+    state: present
+

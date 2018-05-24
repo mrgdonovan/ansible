@@ -1,0 +1,13 @@
+---
+users:
+  bmhelmer:
+    password: temp22 
+    shell: /bin/bash
+    comment: Brandon Helmer INC0735938
+    uid: 31114
+    group: bmhelmer
+    groups: secadmin
+    createhome: yes
+    state: present
+
+

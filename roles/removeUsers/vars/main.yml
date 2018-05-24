@@ -1,0 +1,6 @@
+---
+users:
+  bgoodma1:
+    state: absent
+    move_home: yes
+    home: bgoodma1_removed

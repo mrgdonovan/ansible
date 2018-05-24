@@ -1,0 +1,4 @@
+---
+
+- name: change user password
+  user: name=gddonova update_password=always password=$1$ked8$iP4U.bV4p5eqWVtlqibsM1

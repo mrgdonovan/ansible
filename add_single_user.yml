@@ -1,0 +1,27 @@
+---
+- hosts: webservers
+  sudo: True
+  gather_facts: yes
+
+  tasks:
+  - name: Add the webadmin group for web team use.
+    group: name=webadmin gid=10459 state=present
+
+  - name: Add user group first before adding user.
+    group: name=gfloyd gid=1036 state=present
+
+  - name: Add web team uids.
+    user: name=gfloyd comment="Gabriel Floyd" uid=1036 group=gfloyd groups=webadmin createhome=yes 
+  - set_fact: user1="gfloyd"
+
+  - name: Set password expiration
+    shell: "chage -M 98 -W 18 gfloyd"
+ 
+  - name: Add webadmin to sudoers  
+    lineinfile: "dest=/etc/sudoers state=present regexp='^%webadmin' line='%webadmin ALL=(ALL) NOPASSWD: ALL'"
+
+  - name: Send email.
+    local_action: mail host=smtp.co.ihc.com subject="Ansible User Add" body="{{ ansible_hostname }} user {{user1}} added. Ansible user creation task complete." from="ramon.gonzalez@imail.org" to="ramon.gonzalez@imail.org" charset=utf8
+
+  - name: Send hipchat message.
+    hipchat: api="https://hipchat.co.ihc.com/v2/room/200/notification" token=V6o6hkFwteMCU7PycKFm9H8mQtZ1eYYfPbP2xJD0 room=notify msg="{{ ansible_hostname }} user {{user1}} added. Ansible user creation task complete. - test"

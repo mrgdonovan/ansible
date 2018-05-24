@@ -1,0 +1,67 @@
+[testbox]
+    lpv-r7rg
+
+[webservers]
+    lpv-r7rg
+    txv-edwtabdev02
+
+[ideaservers]
+    lpv-ideacpoedev01
+    lpv-ideacpoepsr02
+    lpv-ideacpoetst01
+    lpv-ideacpoetst02
+    lpv-ideacpoever01
+    lpv-webbpmprd02
+
+[hpvservers]
+    hpv-igappdev01
+    hpv-igapptst01
+    hpv-igappprd01
+
+[temphosts]
+    lpv-trmdatadprd01
+    lpv-trmdatadprd02
+    lpv-trmdatatprd01
+
+[temp]
+hpv-contrprd01
+hpv-contrtst01
+labnet-dev
+lauger1
+lp-issamud03
+lp-issamud04
+lp-mavdev01
+lp-rsotamprd01
+lp-rsotamprd02
+lp-rsotamtst01
+lpv-ideacpoedev01
+lpv-ideacpoepsr02
+lpv-ideacpoetst01
+lpv-ideacpoetst02
+lpv-ideacpoever01
+lpv-webapmaccprd01
+lpv-webapmcemprd11
+lpv-webapmemprd11
+lpv-webapmemprd12
+lpv-webapmemprd13
+lpv-webapmemprd14
+lpv-webapmmomprd11
+lpv-webbpmprd02
+lpv-webilmtprd01
+lpv-webinfraprd01
+lpv-webinfraprd02
+lpv-webinfraprd03
+lpv-webinfraprd04
+lpv-webinfraprd05
+lpv-webipchatprd01
+lpv-websbx93
+lp-webapmtimqa01
+lp-webbak
+mk-webutil01
+mk-webutil02
+tx-cccprxy01
+tx-cccprxy02
+tx-ccctstprxy01
+weblab2
+weblab4
+

@@ -1,0 +1,9 @@
+---
+users:
+  bgoodman:
+    state: absent
+    move_home: yes
+    home: bgoodman_removed
+
+
+

@@ -1,0 +1,25 @@
+#!/bin/bash
+
+PROXY=proxy.ihc.com:8080
+
+if [ "$PROXY" == "" ]
+then
+echo "PROXY environment variable not set. Set it now?"
+read -e -p "proxy address and port: http://" PROXY
+fi
+
+read -e -p "proxy username: " username
+read -es -p "proxy password: " password
+export http_proxy="http://$username:$password@$PROXY"
+export ftp_proxy="http://$username:$password@$PROXY"
+
+echo ""
+while [ "$yumcmd" != "exit" ]
+do
+echo "Type yum commands now ('exit' to terminate):"
+read -e -p "(yum) " yumcmd
+if [ "$yumcmd" != "exit" ]
+then
+yum $yumcmd
+fi
+done

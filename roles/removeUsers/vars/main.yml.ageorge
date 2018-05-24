@@ -1,0 +1,9 @@
+---
+users:
+  ageorge:
+    state: absent
+    move_home: yes
+    home: ageorge_removed
+
+
+
